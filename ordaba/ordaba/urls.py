@@ -1,3 +1,5 @@
+from django.conf.urls import include, url
+import TestApp.views
 """
 ordaba URL Configuration
 
@@ -23,4 +25,5 @@ Including another URLconf
 urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
+    url('', TestApp.views.index, name='index')
 ]
