@@ -35,12 +35,24 @@
     <Compile Include="ordaba\settings.py" />
     <Compile Include="ordaba\urls.py" />
     <Compile Include="ordaba\wsgi.py" />
+    <Compile Include="TestApp\admin.py" />
+    <Compile Include="TestApp\apps.py" />
+    <Compile Include="TestApp\migrations\__init__.py" />
+    <Compile Include="TestApp\models.py" />
+    <Compile Include="TestApp\tests.py" />
+    <Compile Include="TestApp\views.py" />
+    <Compile Include="TestApp\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="TestApp\templates\ThrowAwayApp\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ordaba\" />
+    <Folder Include="TestApp\" />
+    <Folder Include="TestApp\migrations\" />
+    <Folder Include="TestApp\templates\" />
+    <Folder Include="TestApp\templates\ThrowAwayApp\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
